@@ -1,0 +1,130 @@
+body{
+    font-family: 'Time new romain', cursive;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+:root{
+    --color: #ff7b23;
+}
+h2{
+    color: blue;
+}
+section{
+    
+    
+}
+footer{
+    
+}
+.saisi{
+    width: 400px;
+    height: 30px;
+}
+.reche{
+    background-color: var(--color);
+    height: 42px;
+    margin-left: -9px;
+}
+header{
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    background: #fcfbfbf5;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center; 
+}   
+#menu{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border-bottom: 3px solid rgb(219, 215, 215);
+    margin-bottom: 0px;
+}
+    #sect1{
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 25px;
+  
+}
+h6{
+    font-size: 18px;
+    color: red;
+}
+h6:hover{
+    cursor: pointer;
+    border-bottom: 4px solid blue;
+}
+#sect{
+    background-image: url(https://images.unsplash.com/photo-1570503794876-259d8f738af7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#sect2{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 25% 30% 30%;
+    grid-column-gap: 3em;
+    opacity: 0.9;
+    overflow: hidden;
+}
+#sectI{
+    display: grid;
+    grid-template-columns: 30% 30% 25%;
+    grid-column-gap: 3em;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+p{
+    text-align: justify;
+}
+#champ{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    border-left: 5px solid blue;
+    padding-top: 20px;
+}
+#nouv{
+    width: 150px;
+    height: 30px;
+    background-color:var(--color);
+}
+#corpsSou{
+    position: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 140px;
+}
+.img1{
+    margin-right: -10px;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 25%;
+    grid-column-gap: 2em;
+    overflow: hidden;
+}
+.footch{
+    background-color: rgb(43, 28, 107);
+}
+.sec{
+    padding-bottom: 15px;
+}
+.finfoot{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: black;
+
+}
